@@ -1,4 +1,5 @@
 # deep learning object detection
+
 A paper list of object detection using deep learning. I wrote this page with reference to [this survey paper](https://arxiv.org/pdf/1809.02165v1.pdf) and searching and searching.. 
 
 *Last updated: 2019/07/01*
@@ -38,7 +39,7 @@ The part highlighted with red characters means papers that i think "must-read".
 However, it is **my personal opinion** and other papers are important too, so I recommend to read them if you have time.
 
 <p align="center">
-  <img width="1000" src="/assets/deep_learning_object_detection_history.PNG" "Example of object detection.">
+  <img width="1000" src="assets/deep_learning_object_detection_history.PNG" "Example of object detection.">
 </p>
 
 ##
@@ -48,7 +49,7 @@ However, it is **my personal opinion** and other papers are important too, so I 
 FPS(Speed) index is related to the hardware spec(e.g. CPU, GPU, RAM, etc), so it is hard to make an equal comparison. The solution is to measure the performance of all models on hardware with equivalent specifications, but it is very difficult and time consuming. 
 
 |   Detector   | VOC07 (mAP@IoU=0.5) | VOC12 (mAP@IoU=0.5) | COCO (mAP@IoU=0.5:0.95) | Published In |
-|:------------:|:-------------------:|:-------------------:|:----------:|:------------:| 
+|:------------:|:-------------------:|:-------------------:|:----------:|:------------:|
 |     R-CNN    |         58.5        |          -          |      -     |    CVPR'14   |
 |    SPP-Net   |         59.2        |          -          |      -     |    ECCV'14   |
 |    MR-CNN    |     78.2 (07+12)    |     73.9 (07+12)    |      -     |    ICCV'15   |
